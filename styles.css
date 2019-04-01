@@ -22,3 +22,14 @@ a {
   font-size: 3.8rem;
   color: #db7f8e;
 }
+
+.wrapper button {
+  font-family: 'VT323', monospace;
+  font-size: 2rem;
+  color: #d5c5c8;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 5%;
+  background: #db7f8e;
+  box-shadow: 2.5px 5px #ffb6c1;
+}

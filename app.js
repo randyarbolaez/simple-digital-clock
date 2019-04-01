@@ -8,6 +8,15 @@ function getTime() {
   timeTag.innerHTML = time;
 }
 
+function talk() {
+  let minutes = new Date().getMinutes();
+  let hours = new Date().getHours();
+  var msg = new SpeechSynthesisUtterance(
+    `The time is ${hours} and ${minutes} minutes`
+  );
+  window.speechSynthesis.speak(msg);
+}
+
 function getDate() {
   let dateTag = document.getElementById('date');
   let date = new Date().toLocaleDateString();
